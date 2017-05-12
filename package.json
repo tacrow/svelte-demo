@@ -1,0 +1,22 @@
+{
+  "name": "svelte-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacrow/svelte-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tacrow/svelte-demo/issues"
+  },
+  "homepage": "https://github.com/tacrow/svelte-demo#readme",
+  "devDependencies": {
+    "sveltify": "^1.1.0"
+  }
+}
