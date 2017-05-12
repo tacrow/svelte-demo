@@ -1,8 +1,13 @@
-<h2>UTC：</h2>
-<p>{{hours}}:{{minutes}}:{{seconds}}</p>
+<p>【HTML】The time is ...</p>
+<p>{{hours}}:{{leftPad(minutes, 2, '0')}}:{{leftPad(seconds, 2, '0')}}</p>
 
 <script>
+	import leftPad from 'left-pad'
+
 	export default {
+		helpers: {
+			leftPad
+		},
 		computed: {
 			hours: time => time.getHours(),
 			minutes: time => time.getMinutes(),

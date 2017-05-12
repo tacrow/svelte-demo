@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tacrow/svelte-demo#readme",
   "devDependencies": {
+    "left-pad": "^1.1.3",
     "sveltify": "^1.1.0"
   }
 }
